@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F7FA;
+    font-family: Arial, sans-serif;
+}
+
+.app-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    width: 260px;
+    background: #2E7D32;
+    color: white;
+    padding: 25px;
+}
+
+.sidebar-header {
+    margin-bottom: 40px;
+}
+
+.sidebar-header h2 {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.sidebar-header p {
+    margin: 0;
+    opacity: .8;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    opacity: .8;
+}
+
+/* CONTENT */
+
+.content {
+    flex: 1;
+    padding: 35px;
+}
+
+.welcome-section {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.08);
+}
+
+.welcome-section p {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* CARDS */
+
+.dashboard-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.08);
+}
+
+.dashboard-card h2 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.card-habitats{
+    border-top: 4px solid #4CAF50;
+}
+
+.card-especies{
+    border-top: 4px solid #4A90E2;
+}
+
+.card-zonas{
+    border-top: 4px solid #8E44AD;
+}
+
+.card-veterinarios{
+    border-top: 4px solid #E74C3C;
+}
+
+.card-cuidadores{
+    border-top: 4px solid #F39C12;
+}
+
+.card-guias{
+    border-top: 4px solid #1ABC9C;
+}
+
+.card-itinerarios{
+    border-top: 4px solid #F1C40F;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-3px);
+    transition: .3s;
+}
+
+.card-icon{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* HABITATS */
+.page-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.table{
+    margin-bottom:0;
+}
+
+.table tbody tr{
+    transition: .2s;
+}
+
+.table tbody tr:hover{
+    background-color: #f8f9fa;
+}
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer p {
+    margin-bottom: 5px;
+    font-weight: 600;
+}

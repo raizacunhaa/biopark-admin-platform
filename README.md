@@ -192,7 +192,7 @@ http://localhost/biopark-admin-platform/
 <img width="1895" height="541" alt="Captura de pantalla 2026-08-13 162911" src="https://github.com/user-attachments/assets/a0644f29-1340-49d2-83c7-3993437afd79" />
 
 
-## 👩‍💻 Autora
+## Desarrollado por:
 
 **Raiza Cunha**
 
